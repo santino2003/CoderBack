@@ -1,7 +1,6 @@
 {
   "name": "primerapreentrega",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +20,15 @@
     "sweetalert2": "^11.10.5"
   },
   "devDependencies": {
-    "nodemon": "^3.0.3"
-  }
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santino2003/CoderBack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/santino2003/CoderBack/issues"
+  },
+  "homepage": "https://github.com/santino2003/CoderBack#readme",
+  "description": ""
 }

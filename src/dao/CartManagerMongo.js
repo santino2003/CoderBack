@@ -13,10 +13,10 @@ class CartManagerMongo{
     }
     async createCart(){
        try {
-            await cartModel.create({
+            const newCart = await cartModel.create({
                 products: []
             })
-        return
+        return newCart._id
        } catch (error) {
             console.log(error)
        }
